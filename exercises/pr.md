@@ -8,7 +8,7 @@ So let's learn how to cope with unmergeble PRs!
 * remember the file you created in <a href="https://github.com/nadavwe/git_workshop#before-you-start">Before You Start</a>? please edit it a bit.
 * commit & push.
 
-#### create an unmergeable PR
+#### Create an unmergeable PR
 now, let's create a PR:
   * go to your github repository, and on the right click pull Requests. 
   * click New Pull Requests.
@@ -17,7 +17,7 @@ now, let's create a PR:
 
 we have a conflict! let's resolve it.
 
-#### registering the repository where you forked from
+#### Registering the repository where you forked from
 this should only be done once for each new clone.
 * add the remote repository:
 ```bash
