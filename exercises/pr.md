@@ -24,7 +24,7 @@ this should only be done once for each new clone.
 git remote add upstream git@github.com:nadavwe/git_workshop.git
 ```
   upstream is just a name! you can call the remote whatever you like. if you have good ideas for forked repositories I'd love to hear, as origin is already taken. =/
-* look what remotes are configured with
+* you can see what remotes are configured with
 ```bash
 git remote -v
 ```
