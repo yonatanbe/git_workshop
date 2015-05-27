@@ -10,7 +10,7 @@ what we want in the end:
 
 the instructions below will help you do it with using only github:
 
-1. fork this repository to your user by clicking the <a href="#before-you-start"><img src="https://github.com/nadavwe/git_workshop/raw/master/.readme/user_data_plus.png" height="15" title="Fork" alt="Fork" align="center"/></a> button in the right side of the screen.
+1. fork this repository to your user by clicking the <a href="#before-you-start"><img src="https://github.com/nadavwe/git_workshop/raw/master/.readme/fork.png" height="15" title="Fork" alt="Fork" align="center"/></a> button in the right side of the screen.
 2. in the new fork, open the user_data folder.
 1. Click the '+' sign where it says <a href="#before-you-start"><img src="https://github.com/nadavwe/git_workshop/raw/master/.readme/user_data_plus.png" height="15" title="git_workshop/+" alt="git_workshop/+" align="center"/></a>.
 1. give your file the name of your team (or any other identifying name of your choice). try to make it special so there won't be clashes. also write some text in your file.
