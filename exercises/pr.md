@@ -14,12 +14,12 @@ now, let's create a PR:
   7. create your PR anyway.
 
 to solve this, we will add the remote repository and resolve the conflicts:
-  6. to add the remote repository:
-```bash
+* add the remote repository:
+  ```bash
 git remote add upstream git@github.com:nadavwe/git_workshop.git
 ```
-  upstream is just a name! you can call the remote wahtever you like.
-  6. look at the remotes with
+  upstream is just a name! you can call the remote whatever you like.
+* look at the remotes with
 ```bash
 git remote -v
 ```
