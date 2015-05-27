@@ -32,7 +32,7 @@ git fetch upstream
 this reads all the new objects (remember? blobs, trees, commits) from upstream to your local clone.
 
 now we are ready to tackle the conflict:
-* create the conflict with
+* reveal the conflict with
 ```bash
 git rebase upstream/master
 ```
@@ -45,6 +45,14 @@ read the text it prints! it can help you understand what to do next.
 git add <file>
 git rebase --continue
 ```
+
+we're almost done! make sure you're happy with the current branch you have, because we are going to override whatever data you have on your forked repository!
+force push your repository with
+```bash
+git push --force
+```
+
+go back to your PR and see that it's green and ready to be merged! congrats! =)
 
 
 
