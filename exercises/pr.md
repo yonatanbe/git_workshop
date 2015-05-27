@@ -13,7 +13,9 @@ now, let's create a PR:
   * you should see a sad red entry "Can't automatically merge. Don't worry, you can still create the pull request."
   * create your PR anyway.
 
-to solve this, we will add the remote repository and resolve the conflicts:
+we have a conflict! let's resolve it.
+
+first, let's bring the new data from the upstream repository:
 * add the remote repository:
 ```bash
 git remote add upstream git@github.com:nadavwe/git_workshop.git
@@ -23,4 +25,28 @@ git remote add upstream git@github.com:nadavwe/git_workshop.git
 ```bash
 git remote -v
 ```
+* bring the new commits with 
+```bash
+git fetch upstream
+```
+this reads all the new objects (remember? blobs, trees, commits) from upstream to your local clone.
+
+now we are ready to tackle the conflict:
+* create the conflict with
+```bash
+git rebase upstream/master
+```
+basically, we ask git to take the commits in upstream/master and have our commits on top of it.
+git will tell you immediately that there is a conflict.
+read the text it prints! it can help you understand what to do next.
+* run ```git status``` - more information on what you can do. READ! ask questions if you don't understand!
+* solve the conflict (your choice of solution). after you're happy with the file you have, add it to the index and continue the rebase. 
+```bash
+git add <file>
+git rebase --continue
+```
+
+
+
+
 
