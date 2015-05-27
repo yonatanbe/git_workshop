@@ -2,7 +2,8 @@
 a workshop on git - how to create your PRs so others can merge them easily.
 
 ## Before You Start
-Because we want everyone to use the same repository, We want each team to have its own file in the repository.
+Because we want everyone to use the same repository, we need your help creating this repository to fit our needs.
+
 what we want in the end:
 * a fork for each team
 * a file in the user_data folder for each team, commited to master branch in both fork and original repository
