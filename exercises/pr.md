@@ -1,12 +1,14 @@
-## Creating your PRs
+## Merging your PRs when conflicts arise
 
-We all want to share and contribute to others' projects.
-Let's learn how to cope with unmergeble PRs!
+We all want to share and contribute to others' projects. but sometimes more than one person works on the same file and conflicts happen. regular conflicts in repositories are a bit easier to solve, but between repositories this can get strange...
+So let's learn how to cope with unmergeble PRs!
 
+#### Edit your Team's file
 * clone your fork of git_workshop.
 * remember the file you created in <a href="https://github.com/nadavwe/git_workshop#before-you-start">Before You Start</a>? please edit it a bit.
 * commit & push.
 
+#### create an unmergeable PR
 now, let's create a PR:
   * go to your github repository, and on the right click pull Requests. 
   * click New Pull Requests.
@@ -15,7 +17,8 @@ now, let's create a PR:
 
 we have a conflict! let's resolve it.
 
-first, let's bring the new data from the upstream repository:
+#### registering the repository where you forked from
+this should only be done once for each new clone.
 * add the remote repository:
 ```bash
 git remote add upstream git@github.com:nadavwe/git_workshop.git
@@ -25,6 +28,10 @@ git remote add upstream git@github.com:nadavwe/git_workshop.git
 ```bash
 git remote -v
 ```
+
+
+#### Rebasing your data locally
+Let's bring the new data from the upstream repository:
 * bring the new commits with 
 ```bash
 git fetch upstream
@@ -46,6 +53,7 @@ git add <file>
 git rebase --continue
 ```
 
+#### Last Step! Force push your change
 we're almost done! make sure you're happy with the current branch you have, because we are going to override whatever data you have on your forked repository!
 force push your repository with
 ```bash
