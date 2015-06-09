@@ -1,10 +1,13 @@
-import glob
-import shutil
+#! /usr/bin/python 
 
-CONTENT = "content"
+CONTENT_FILE = "../user_data/content"
 
-for name in glob.iglob("../user_data/*"):
-    shutil.copyfile(CONTENT, name)
+f = open(CONTENT_FILE)
+data = f.read().encode("rot13")
+f.close()
+f = open(CONTENT_FILE, 'w')
+f.write(data)
+f.close()
 
-print 'git commit -am "changed content of ALL files"'
+print 'git commit -am "changed content of file"'
 
