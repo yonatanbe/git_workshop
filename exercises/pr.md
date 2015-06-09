@@ -8,10 +8,11 @@ So let's learn how to cope with unmergeble PRs!
 * clone your fork of git_workshop into your computer.
 * add a new file somewhere in the fork.
 * commit & push.
-now, let's create a PR:
-  * go to your github repository, and above the tree click Pull Request. 
-  * click create pull Request
-  * and then again - click the big green "create pull request" button.
+
+  now, let's create a PR:
+* go to your github repository, and above the tree click Pull Request. 
+* click create pull Request
+* and then again - click the big green "create pull request" button.
 
 #### Registering the repository where you forked from
 this should only be done once for each new clone.
