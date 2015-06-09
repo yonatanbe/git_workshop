@@ -9,5 +9,5 @@ f = open(CONTENT_FILE, 'w')
 f.write(data)
 f.close()
 
-print 'git commit -am "changed content of file"'
+print 'git commit -am "changed content of file" && git push'
 
