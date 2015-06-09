@@ -14,6 +14,11 @@ now, let's create a PR:
 * click create pull Request
 * and then again - click the big green "create pull request" button.
 
+#### have a conflicting change
+we'd like to create a conflict with the original repository.
+* edit the content of user_data/content file.
+* commit & push!
+
 #### Registering the repository where you forked from
 this should only be done once for each new clone.
 * add the remote repository:
