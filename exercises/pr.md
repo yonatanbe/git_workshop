@@ -9,7 +9,7 @@ So let's learn how to cope with unmergeble PRs!
 * add a new file somewhere in the fork.
 * commit & push.
 
-  now, let's create a PR:
+now, let's create a PR:
 * go to your github repository, and above the tree click Pull Request. 
 * click create pull Request
 * and then again - click the big green "create pull request" button.
