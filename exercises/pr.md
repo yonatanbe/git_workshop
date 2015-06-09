@@ -3,19 +3,15 @@
 We all want to share and contribute to others' projects. but sometimes more than one person works on the same file and conflicts happen. regular conflicts in repositories are a bit easier to solve, but between repositories this can get strange...
 So let's learn how to cope with unmergeble PRs!
 
-#### Edit your Team's file
-* clone your fork of git_workshop.
-* remember the file you created in <a href="https://github.com/nadavwe/git_workshop#before-you-start">Before You Start</a>? please edit it a bit.
+#### Create a PR
+* did you do the <a href="https://github.com/nadavwe/git_workshop#before-you-start">"Before You Start"</a>? If not, please fork this repository now!
+* clone your fork of git_workshop into your computer.
+* add a new file somewhere in the fork.
 * commit & push.
-
-#### Create an unmergeable PR
 now, let's create a PR:
-  * go to your github repository, and on the right click pull Requests. 
-  * click New Pull Requests.
-  * you should see a sad red entry "Can't automatically merge. Don't worry, you can still create the pull request."
-  * create your PR anyway.
-
-we have a conflict! let's resolve it.
+  * go to your github repository, and above the tree click Pull Request. 
+  * click create pull Request
+  * and then again - click the big green "create pull request" button.
 
 #### Registering the repository where you forked from
 this should only be done once for each new clone.
