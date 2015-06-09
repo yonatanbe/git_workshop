@@ -7,17 +7,20 @@ So let's learn how to cope with unmergeble PRs!
 * did you do the <a href="https://github.com/nadavwe/git_workshop#before-you-start">"Before You Start"</a>? If not, please fork this repository now!
 * clone your fork of git_workshop into your computer.
 * add a new file somewhere in the fork.
-* commit & push.
+* commit & *push*.
 
 now, let's create a PR:
 * go to your github repository, and above the tree click Pull Request. 
 * click create pull Request
 * and then again - click the big green "create pull request" button.
+* see that github is happilly willing to merge your PR with a green sign.
 
 #### have a conflicting change
 we'd like to create a conflict with the original repository.
 * edit the content of user_data/content file.
-* commit & push!
+* commit & *push*
+* go to your PR - you should see that your github will warn you of a conflict with a gray sad sign.
+* if your PR is still happy, please do a more massive change to content file. =)
 
 #### Registering the repository where you forked from
 this should only be done once for each new clone.
@@ -62,7 +65,7 @@ force push your repository with
 git push --force
 ```
 
-go back to your PR and see that it's green and ready to be merged! congrats! =)
+go back to your PR and see that it's green again and ready to be merged! congrats! =)
 
 
 
