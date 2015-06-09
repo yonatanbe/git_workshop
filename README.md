@@ -13,7 +13,7 @@ you're finished! here's a treat:
   * the second: a keyword that will be used to access this search engine. e.g., github. 
   * the third: use this ```https://github.com/search?utf8=%E2%9C%93&type=Code&q=user:wix %s``` - the github search page with the code section and the wix user.
 4. click "Done".
-5. now go to your url bar and write ```github Laboratory```
+5. now go to your url bar and write ```github Laboratory``` (copy-paste kicks in the magic if you press TAB after pasting).
 6. Enjoy!
 
 ### the git book
