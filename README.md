@@ -13,9 +13,9 @@ sorry, these are a bit Wix specific, but can be changed to work for you too! (ju
 3. In "Other Search Engines", go to the end and you'll see 3 empty boxes:
   * in the first enter whatever you want, it's just a name for you. e.g., github code search
   * in the second enter a keyword that will be used to access this search engine. e.g., github. 
-  * in the third, use this (don't include the dashes!) 'https://github.com/search?utf8=%E2%9C%93&type=Code&q=user:wix %s'
+  * in the third, use this ```https://github.com/search?utf8=%E2%9C%93&type=Code&q=user:wix %s```
 4. click "Done".
-5. now go to your url bar and write 'github BootstrapServer' (again, no dashes!)
+5. now go to your url bar and write ```github BootstrapServer```
 6. Enjoy!
 
 ### the git book
