@@ -10,11 +10,11 @@ This exercise is meant to show you the working of git reset. it's a basic - "let
 
 ### Notes
 
-#### watch the effects!
+##### watch the effects!
 each time now we are going to use another reset method.
 please run ```git status``` and ```git log``` and ```cat file``` before and after each reset flavour to see the effect of each command.
 
-#### referencing HEAD's parents
+##### referencing HEAD's parents
 HEAD~ is the parent of the current commit. you can also specify a number: ~2 is the commit's grandparent = the parent of its parent. sometimes you see HEAD^ - it is also the parent of the current commit. confused? you can read more about it [here](http://www.paulboxley.com/blog/2011/06/git-caret-and-tilde).
 
 ### soft reset
