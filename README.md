@@ -16,6 +16,12 @@ you're finished! here's a treat:
 5. now go to your url bar and write ```github Laboratory``` (copy-paste kicks in the magic if you press TAB after pasting).
 6. Enjoy!
 
+## Exercises
+* [Reset](exercises/reset.md)
+* [Conflict in a Fork](exercises/pr.md)
+
+
+
 ### the git book
 https://git-scm.com/doc
 
