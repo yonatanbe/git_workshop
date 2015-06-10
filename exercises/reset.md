@@ -1,8 +1,7 @@
 
 
 ### Playing with Git Reset
-This exercise is meant to show you the working of git reset. it's a basic - "let's run and see" so try and see while you're doing it. =)
-
+This exercise is meant to show you the working of git reset. it's a basic "let's run and see", so try and see while you're doing it.
 
 ### Preliminaries 
 * create a a new repository (```git init``` in some (empty) directory) and create a base commit to start from - this will be our base commit.
