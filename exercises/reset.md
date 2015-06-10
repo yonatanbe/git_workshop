@@ -8,8 +8,8 @@
 each time now we are going to use another reset method.
 please run ```git status``` and ```git log``` and ```cat file``` before and after each line to see the effect of each command.
 
-#### a note on HEAD with tilde and caret
-HEAD~ is the parent of the current commit. you can also specify a number: ~2 is the commit's grandparent = the parent of its parent. sometimes you see HEAD^ - you can read more about it [here](http://www.paulboxley.com/blog/2011/06/git-caret-and-tilde).
+#### a note on referencing HEAD's parents
+HEAD~ is the parent of the current commit. you can also specify a number: ~2 is the commit's grandparent = the parent of its parent. sometimes you see HEAD^ - it is also the parent of the current commit. confused? you can read more about it [here](http://www.paulboxley.com/blog/2011/06/git-caret-and-tilde).
 
 #### soft reset
 * status & log && cat!
@@ -38,7 +38,7 @@ YOU ARE GOING TO LOSE DATA! (well, not really, see in a sec)
 * git reset --hard HEAD~
 * status & log && cat!
 
-see how your commit has been removed. also the index has changed as well and your changes to the file has been removed from you working directory as well.
+see how your commit has been removed. The index has also changed. your changes to the file has been removed from your working directory as well.
 
 #### getting reset'd data back
 git makes it unbelivebly difficult to lose commits, even if they have been reset'd, deleted, removed or whatever.
@@ -57,20 +57,8 @@ OR
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-the git book again:
-https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified
+#### Extra reading
+[the git book again](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
 
 
 
