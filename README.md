@@ -11,7 +11,7 @@ you're finished! here's a treat:
 3. In "Other Search Engines", go to the end and you'll see 3 empty boxes:
   * the first: it's just a name for you to identify the search engine. e.g., github code search
   * the second: a keyword that will be used to access this search engine. e.g., github. 
-  * the third: use this ```https://github.com/search?utf8=%E2%9C%93&type=Code&q=user:wix %s``` - the github search page with the code section and the wix user.
+  * the third: use this ```https://github.com/search?type=Code&q=%s user:wix``` - the github search page with the code section and the wix user.
 4. click "Done".
 5. now go to your url bar and write ```github Laboratory``` (copy-paste kicks in the magic if you press TAB after pasting).
 6. Enjoy!
