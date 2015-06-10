@@ -22,7 +22,7 @@ HEAD~ is the parent of the current commit. you can also specify a number: ~2 is 
 * git reset --soft HEAD~
 * status & log && cat!
 
-see how your commit has been removed. the index is just the same as it was, with the your change still there.
+see how your commit has been removed. the index is just the same as it was, with your change still there.
 see also that your file has not changed!
 
 * commit your change again
@@ -33,7 +33,7 @@ see also that your file has not changed!
 * git reset HEAD~
 * status & log && cat!
 
-see how your commit has been removed. also the index has changed as well, and now you have to include your file again.
+see how your commit has been removed. also the index has changed as well, and now you have to add your file again.
 see also that your file has not changed!
 
 * ```git add``` your changes to the index and then commit again.
