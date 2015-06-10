@@ -9,10 +9,7 @@ each time now we are going to use another reset method.
 please run ```git status``` and ```git log``` and ```cat file``` before and after each line to see the effect of each command.
 
 #### a note on HEAD with tilde and caret
-HEAD~ is the parent of the current commit. 
-
-you can also specify a number: ~2 is the commit's grandparent = the parent of its parent.
-sometimes you see HEAD^ - you can read more about it [here](http://www.paulboxley.com/blog/2011/06/git-caret-and-tilde).
+HEAD~ is the parent of the current commit. you can also specify a number: ~2 is the commit's grandparent = the parent of its parent. sometimes you see HEAD^ - you can read more about it [here](http://www.paulboxley.com/blog/2011/06/git-caret-and-tilde).
 
 #### soft reset
 * status & log && cat!
