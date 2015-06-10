@@ -57,11 +57,11 @@ the first line is the current HEAD.
 the second line is the commit that was before the current head.
 * status & log && cat!
 * you have a choice now:
-** ```git branch "my_branch" <commit_hash>``` - to open a new branch with your commit as its HEAD.
+    * ```git branch "my_branch" <commit_hash>``` - to open a new branch with your commit as its HEAD.
 
-   OR
+    OR
 
-** ```git rebase <commit_hash>``` - have this commit as the commit master (or your current branch) points to.
+    * ```git rebase <commit_hash>``` - have this commit as the commit master (or your current branch) points to.
 * status & log && cat!
 
 
