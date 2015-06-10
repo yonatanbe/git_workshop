@@ -54,9 +54,9 @@ so let's get this commit back from the dead:
 
 reflog tells you where the head has been each time it was changed.
 the first line is the current HEAD.
-the second line is the commit that was before the current head - let's call this hash ```<MY_SAVER>```
+the second line is the commit that was before the current head - let's call this hash ```<MY_SAVIOR>```
 * status & log && cat!
-* ```git rebase <MY_SAVER>```
+* ```git rebase <MY_SAVIOR>```
 * status & log && cat!
 
 see how your commit has been recovered. The index has also changed. your changes to the file has magically reappered as well.
