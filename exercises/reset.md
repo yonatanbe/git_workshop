@@ -1,6 +1,6 @@
 
 
-### Playing with Git Reset
+## Playing with Git Reset
 This exercise is meant to show you the working of git reset. it's a basic "let's run and see", so try and see while you're doing it.
 
 ### Preliminaries 
