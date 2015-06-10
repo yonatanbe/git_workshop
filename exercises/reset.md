@@ -56,14 +56,10 @@ reflog tells you where the head has been each time it was changed.
 the first line is the current HEAD.
 the second line is the commit that was before the current head.
 * status & log && cat!
-* you have a choice now:
-    * ```git branch "my_branch" <commit_hash>``` - to open a new branch with your commit as its HEAD.
-
-    OR
-
-    * ```git rebase <commit_hash>``` - have this commit as the commit master (or your current branch) points to.
+* ```git rebase <commit_hash>```
 * status & log && cat!
 
+see how your commit has been recovered. The index has also changed. your changes to the file has magically reappered as well.
 
 #### Extra reading
 [the git book again](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
