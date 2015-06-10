@@ -54,7 +54,7 @@ so let's get this commit back from the dead:
 
 reflog tells you where the head has been each time it was changed.
 the first line is the current HEAD.
-the second line is the commit that was before the current head - let's call this hash ```<MY_SAVIOR>```
+the second line is the commit that was before the current head - let's call this second hash ```<MY_SAVIOR>```.
 * status & log && cat!
 * ```git rebase <MY_SAVIOR>```
 * status & log && cat!
