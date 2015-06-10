@@ -45,11 +45,14 @@ git makes it unbelivebly difficult to lose commits, even if they have been reset
 git by default save your commits 3 month, even if they are abandoned and cannot be accessed from other commits.
 so let's get this commit back from the dead:
 * ```git reflog```
+
 reflog tells you where the head has been each time it was changed.
 the first line is the commit that was before the current head.
 you have a choice now:
 * ```git branch "my_branch" <commit_hash>``` - to open a new branch with your commit as its HEAD.
+
 OR
+
 * ```git rebase <commit_hash>``` - have this commit as the commit master (or your current branch) points to.
 
 
