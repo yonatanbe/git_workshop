@@ -1,9 +1,9 @@
 
 ### Interactive Rebasing
 interactive rebase is a tool that helps you reshape the history of your commits.
-in it's basic form it allows you to squash commits - create from several commits, a single commit.
+in it's basic form it allows you to squash commits - from several commits create a single commit.
 
-we will use here some notations that are covered in [Reset exercise](reset.md). you can also reuse the repository you created there.
+we will use here some notations that are covered in [Reset exercise notes section](reset.md#notes). you can also reuse the repository you created there.
 
 ### Preliminaries
 * create a new empty repository
