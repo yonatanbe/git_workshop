@@ -16,7 +16,7 @@ you're finished! here's a treat:
 5. now go to your url bar and write ```github Laboratory``` (copy-paste kicks in the magic if you press TAB after pasting).
 6. Enjoy!
 
-## Exercises
+## Guided Tours
 * [Reset](exercises/reset.md)
 * [Conflict in a Fork](exercises/pr.md)
 
