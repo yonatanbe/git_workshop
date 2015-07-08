@@ -17,8 +17,8 @@ you're finished! here's a treat:
 6. Enjoy!
 
 ## Guided Tours
-* [Reset](exercises/reset.md)
-* [Conflict in a Fork](exercises/pr.md)
+* [Reset](tours/reset.md)
+* [Conflict in a Fork](tours/pr.md)
 
 
 
