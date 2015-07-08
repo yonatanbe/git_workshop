@@ -67,6 +67,10 @@ git push --force
 
 go back to your PR and see that it's green again and ready to be merged! congrats! =)
 
+#### Cleanup Time
+please close your Pull Request so I'll have a bit less clutter in this project.
+Thanks! =)
+
 
 
 
